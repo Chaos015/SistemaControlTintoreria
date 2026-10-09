@@ -1,0 +1,6 @@
+@SistemaControlTintoreria_HostAddress = http://localhost:5197
+
+GET {{SistemaControlTintoreria_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

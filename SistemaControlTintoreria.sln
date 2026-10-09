@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaControlTintoreria", "SistemaControlTintoreria\SistemaControlTintoreria.csproj", "{BE0EE1EE-5DC4-45DC-9C14-AF0769DCB28E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE0EE1EE-5DC4-45DC-9C14-AF0769DCB28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0EE1EE-5DC4-45DC-9C14-AF0769DCB28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0EE1EE-5DC4-45DC-9C14-AF0769DCB28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0EE1EE-5DC4-45DC-9C14-AF0769DCB28E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C03CAEB8-D700-4248-B0C7-4942A6C169D2}
+	EndGlobalSection
+EndGlobal
