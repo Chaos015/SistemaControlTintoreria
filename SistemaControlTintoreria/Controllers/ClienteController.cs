@@ -8,8 +8,24 @@ namespace SistemaControlTintoreria.Controllers;
 [Route("api/[controller]")]
 public class ClienteController : ControllerBase
 {
-    private static readonly List<ClienteDto> clientes = new();
-    private static int siguienteId = 1;
+    private static readonly List<ClienteDto> clientes = new()
+{
+    new ClienteDto
+    {
+        Id = 1,
+        Nombre = "Carlos Perez",
+        Telefono = "809-555-0101",
+        Direccion = "Santo Domingo"
+    },
+    new ClienteDto
+    {
+        Id = 2,
+        Nombre = "Maria Rodriguez",
+        Telefono = "809-555-0102",
+        Direccion = "Santiago"
+    }
+};
+    private static int siguienteId = 3;
 
     [HttpGet]
     public ActionResult<IEnumerable<ClienteDto>> ObtenerClientes()

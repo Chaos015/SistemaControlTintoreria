@@ -8,8 +8,26 @@ namespace SistemaControlTintoreria.Controllers;
 [Route("api/[controller]")]
 public class PrendaController : ControllerBase
 {
-    private static readonly List<PrendaDto> prendas = new();
-    private static int siguienteId = 1;
+    private static readonly List<PrendaDto> prendas = new()
+{
+    new PrendaDto
+    {
+        Id = 1,
+        Tipo = "Camisa",
+        Descripcion = "Camisa de vestir",
+        Color = "Blanco",
+        ClienteId = 1
+    },
+    new PrendaDto
+    {
+        Id = 2,
+        Tipo = "Pantalon",
+        Descripcion = "Pantalon de vestir",
+        Color = "Negro",
+        ClienteId = 2
+    }
+};
+    private static int siguienteId = 3;
 
     [HttpGet]
     public ActionResult<IEnumerable<PrendaDto>> ObtenerPrendas()
